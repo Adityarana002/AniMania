@@ -208,7 +208,7 @@ body {
     top: 23%;
     left: 40px;
    opacity: 0;
-   transition: all 1s ease-in-out;
+   transition: all 1.5s ease-in;
 }
 
 .movie-list-item-button {
