@@ -1,0 +1,341 @@
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnimeMania</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Wittgenstein:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+ </head>
+
+ <body>
+    <div class="navbar">
+        <div class="navbar-container">
+            <div class="logo-container"><h1 class ="logo">AniMania</h1></div>
+            <div class="menu-container">
+                <ul class="menu-list">
+                    <li class="menu-list-item active">Home</li>
+                    <li class="menu-list-item">Movies</li>
+                    <li class="menu-list-item">Series</li>
+                    <li class="menu-list-item">Popular</li>
+                    <li class="menu-list-item">Trends</li>                
+                </ul>
+            </div>
+            <div class="profile-container">
+                <img src="image/pfp.jpg" alt="" class="profile-picture">
+                <div class="profile-text-container">
+                    <span class="profile-text">Profile</span>
+                    <i class="fa-solid fa-sort-down"></i>
+                </div>
+                <div class="toggle">
+                    <i class="fa-solid fa-moon toggle-icon"></i>
+                    <i class="fa-solid fa-sun toggle-icon"></i>
+                    <div class="toggle-ball"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sidebar">
+        <i class="left-menu-icon fa-solid fa-magnifying-glass"></i>
+        <i class="left-menu-icon fa-solid fa-house"></i>
+        <i class="left-menu-icon fa-solid fa-bookmark"></i>
+        <i class="left-menu-icon fa-solid fa-tv"></i>
+        <i class="left-menu-icon fa-solid fa-hourglass"></i>
+        <i class="left-menu-icon fa-solid fa-cart-shopping"></i>
+    </div>
+    <div class="container">
+        <div class="content-container">
+            <div class="featured-content"
+             style="background:
+              linear-gradient(to bottom, rgba(0,0,0,0),
+               #151515),
+                url('image/feature_content.jpg') no-repeat;
+                background-size: cover;">
+                <img src="image/feature_title.png" alt="One Piece" class="featured-title">
+                <p class="featured-desc">ONE PIECE is a legendary high-seas quest unlike any other. Luffy is a young adventurer who has 
+                    longed for a life of freedom ever since he can remember. He sets off from his small village on a perilous journey to 
+                    find the legendary fabled treasure, ONE PIECE, to become King of the Pirates!</p>
+                    <button class="featured-button">WATCH</button>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">TRENDING</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <!--your name-->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-image" src="image/you_name.jpg" alt="Your Name">
+                            <span class="movie-list-item-title">Your Name</span>
+                            <p class="movie-list-item-desc">Two teenagers share a profound, magical connection upon discovering they are swapping bodies.</p>
+                                 <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <!--Attack on Titan-->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-image" src="image/attack_on_titan.jpg" alt="Attack On Titan">
+                            <span class="movie-list-item-title">Attack On Titan</span>
+                            <p class="movie-list-item-desc">Set in a post-apocalyptic world where the remains of humanity live behind walls protecting them from giant humanoid Titans.</p>
+                                 <button class="movie-list-item-button">Watch</button>
+                        </div>
+                         <!--demon slayer-->
+                         <div class="movie-list-item">
+                            <img class="movie-list-item-image" src="image/demon_slayer.jpg" alt="Your Name">
+                            <span class="movie-list-item-title">Demon Slayer</span>
+                            <p class="movie-list-item-desc"> It follows teenage Tanjiro Kamado, who strives to become a Demon Slayer after his family was slaughtered and his younger sister, Nezuko, is turned into a demon.</p>
+                                 <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <!--Cowboy bepop-->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-image" src="image/cowboy_bepop.jpg" alt="Your Name">
+                            <span class="movie-list-item-title">Cowboy Bepop</span>
+                            <p class="movie-list-item-desc">It is set in the year 2071, and follows the lives of a traveling bounty-hunting crew aboard a spaceship, the Bebop.</p>
+                                 <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <!--death note-->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-image" src="image/death_note.jpg" alt="Your Name">
+                            <span class="movie-list-item-title">Death note</span>
+                            <p class="movie-list-item-desc">It is about a Japanese teenage high school student boy named Light Yagami, who finds a supernatural notebook.</p>
+                                 <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <!--hxh-->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-image" src="image/hxh.jpg" alt="Your Name">
+                            <span class="movie-list-item-title">Hunter x Hunter</span>
+                            <p class="movie-list-item-desc">The story begins with a young boy named Gon Freecss, who one day discovers that the father who he thought was dead, is in fact alive and well.</p>
+                                 <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <!--Gintama-->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-image" src="image/gintama.jpg" alt="Your Name">
+                            <span class="movie-list-item-title">Gintama</span>
+                            <p class="movie-list-item-desc">Gintoki is a freelancer who runs an odd-jobs business with his friends Shinpachi and Kagura.</p>
+                                 <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <!--chainsaw man-->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-image" src="image/chainsaw.jpg" alt="chainsaw man">
+                            <span class="movie-list-item-title">Chainsaw Man</span>
+                            <p class="movie-list-item-desc">a lone 16-year-old boy named Denji who, after making a contract with a dog-like devil named Pochita, gains the ability to transform parts of his body into chainsaws.</p>
+                                 <button class="movie-list-item-button">Watch</button>
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-chevron-right arrow"></i>
+                </div>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">TOP REALEASES</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <!--Full Metal Alchemist-->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-image" src="image/full_metal.jpg" alt="Your Name">
+                            <span class="movie-list-item-title">Full Metal</span>
+                            <p class="movie-list-item-desc"> When a failed alchemical ritual leaves brothers Edward and Alphonse Elric with severely damaged bodies, they begin searching for the one thing that can save them: the fabled philosopher's stone.</p>
+                                 <button class="movie-list-item-button">Watch</button>
+                        </div>
+                         <!--Classroom of the elites-->
+                         <div class="movie-list-item">
+                            <img class="movie-list-item-image" src="image/classroom_of_the_elite.jpg" alt="Your Name">
+                            <span class="movie-list-item-title">Class of the elites</span>
+                            <p class="movie-list-item-desc">the story is about a dispute over 'Class A' whose members are destined to achieve any desired success after their graduation.</p>
+                                 <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <!--Jujutsu Kaisen-->
+                        <div class="movie-list-item">
+                           <img class="movie-list-item-image" src="image/jujutsu_kaisen.jpg" alt="Your Name">
+                           <span class="movie-list-item-title">Jujutsu kaisen</span>
+                           <p class="movie-list-item-desc">The story follows high school student Yuji Itadori as he joins a secret organization of Jujutsu Sorcerers to eliminate a powerful Curse named Ryomen Sukuna, of whom Yuji becomes the host.</p>
+                                <button class="movie-list-item-button">Watch</button>
+                       </div>
+                        <!--one peice-->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-image" src="image/feature_content.jpg" alt="Your Name">
+                            <span class="movie-list-item-title">One Piece</span>
+                            <p class="movie-list-item-desc">Luffy  sets off from his small village on a perilous journey to find the legendary fabled treasure, ONE PIECE, to become King of the Pirates!</p>
+                                 <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <!--mob pshyco-->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-image" src="image/mod.jpg" alt="Your Name">
+                            <span class="movie-list-item-title">Mob Pshyco</span>
+                            <p class="movie-list-item-desc">Shigeo Kageyama is an average middle school-aged boy, nicknamed Mob. Although he looks like an inconspicuous person, he is in fact a powerful esper with immense psychic power.</p>
+                                 <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <!--Naruto-->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-image" src="image/naruto.jpg" alt="Your Name">
+                            <span class="movie-list-item-title">Naruto</span>
+                            <p class="movie-list-item-desc">It tells the story of Naruto Uzumaki, a young ninja who seeks recognition from his peers and dreams of becoming the Hokage, the leader of his village..</p>
+                                 <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <!--Your Name-->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-image" src="image/you_name.jpg" alt="Your Name">
+                            <span class="movie-list-item-title">Your Name</span>
+                            <p class="movie-list-item-desc">Two teenagers share a profound, magical connection upon discovering they are swapping bodies.</p>
+                                 <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <!--dragon ball z-->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-image" src="image/dragon_ball_z.jpg" alt="Your Name">
+                            <span class="movie-list-item-title">Dragon Ballz</span>
+                            <p class="movie-list-item-desc">With the help of the powerful Dragonballs, a team of fighters led by the saiyan warrior Goku defend the planet earth from extraterrestrial enemies.ss</p>
+                                 <button class="movie-list-item-button">Watch</button>
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-chevron-right arrow"></i>
+                </div>
+            </div>
+                <div class="featured-content"
+                 style="background:
+                  linear-gradient(to bottom, rgba(0,0,0,0),
+                   #151515),
+                    url('image/demon_slayer.jpg') no-repeat;
+                    background-size: cover;">
+                    <img src="image/demonslayertitle.png" alt="Demon Slayer" class="featured-title-second">
+                    <p class="featured-desc">Tanjiro sets out to become a demon slayer to avenge his family and cure his sister.A family is attacked by demons and 
+                        only two members survive - Tanjiro and his sister Nezuko, who is turning into a demon slowly. Tanjiro sets out to become a demon slayer to 
+                        avenge his family and cure his sister.</p>
+                        <button class="featured-button">WATCH</button>
+                </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">Most Favourite</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <!--One punch man-->
+                            <img class="movie-list-item-image" src="image/one_punch.jpg" alt="Your Name">
+                            <span class="movie-list-item-title">One Punch Man</span>
+                            <p class="movie-list-item-desc">Saitama is a self-proclaimed superhero who can defeat every opponent that he encounters with a single punch..</p>
+                                 <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <!--vinland-->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-image" src="image/vinland.jpg" alt="Your Name">
+                            <span class="movie-list-item-title">Vinland Saga</span>
+                            <p class="movie-list-item-desc">Vinland Saga follows a young boy named Thorfinn and his quest to seek revenge for his father, Thors. </p>
+                                 <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <!--solo levelling-->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-image" src="image/solo.jpg" alt="Your Name">
+                            <span class="movie-list-item-title">Solo levelling</span>
+                            <p class="movie-list-item-desc">In a world where hunters, humans who possess magical abilities, must battle deadly monsters to protect the human race from certain annihilation..</p>
+                                 <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <!--tokyo ghoul-->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-image" src="image/tokyo_ghoul.jpg" alt="Your Name">
+                            <span class="movie-list-item-title">Tokyo Ghoul</span>
+                            <p class="movie-list-item-desc">a shy college student named Kaneki Ken, who is nearly killed in an attack by one of these monsters, becomes a half-ghoul himself after receiving an organ transplant from the ghoul.</p>
+                                 <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <!--steins Gate-->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-image" src="image/stiens_gate.jpg" alt="Your Name">
+                            <span class="movie-list-item-title">Steings Gate</span>
+                            <p class="movie-list-item-desc">Rintaro Okabe, who together with his friends accidentally discovers a method of time travel through which they can send text messages to the past, thereby changing the present.</p>
+                                 <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <!--your name-->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-image" src="image/you_name.jpg" alt="Your Name">
+                            <span class="movie-list-item-title">Your Name</span>
+                            <p class="movie-list-item-desc">Two teenagers share a profound, magical connection upon discovering they are swapping bodies..</p>
+                                 <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <!--hxh-->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-image" src="image/hxh.jpg" alt="Your Name">
+                            <span class="movie-list-item-title">Hunter x Hunter</span>
+                            <p class="movie-list-item-desc">The story begins with a young boy named Gon Freecss, who one day discovers that the father who he thought was dead, is in fact alive and well.</p>
+                                 <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <!--Attack on Titan-->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-image" src="image/attack_on_titan.jpg" alt="Attack On Titan">
+                            <span class="movie-list-item-title">Attack On Titan</span>
+                            <p class="movie-list-item-desc">Set in a post-apocalyptic world where the remains of humanity live behind walls protecting them from giant humanoid Titans.</p>
+                                 <button class="movie-list-item-button">Watch</button>
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-chevron-right arrow"></i>
+                </div>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">TOP RECOMMENDED</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <!--Jujutsu Kaisen-->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-image" src="image/jujutsu_kaisen.jpg" alt="Your Name">
+                            <span class="movie-list-item-title">Jujutsu kaisen</span>
+                            <p class="movie-list-item-desc">The story follows high school student Yuji Itadori as he joins a secret organization of Jujutsu Sorcerers to eliminate a powerful Curse named Ryomen Sukuna, of whom Yuji becomes the host.</p>
+                                 <button class="movie-list-item-button">Watch</button>
+                        </div>
+                       <!--Naruto-->
+                       <div class="movie-list-item">
+                        <img class="movie-list-item-image" src="image/naruto.jpg" alt="Your Name">
+                        <span class="movie-list-item-title">Naruto</span>
+                        <p class="movie-list-item-desc">It tells the story of Naruto Uzumaki, a young ninja who seeks recognition from his peers and dreams of becoming the Hokage, the leader of his village..</p>
+                             <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <!--Jujutsu Kaisen-->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-image" src="image/jujutsu_kaisen.jpg" alt="Your Name">
+                            <span class="movie-list-item-title">Jujutsu kaisen</span>
+                            <p class="movie-list-item-desc">The story follows high school student Yuji Itadori as he joins a secret organization of Jujutsu Sorcerers to eliminate a powerful Curse named Ryomen Sukuna, of whom Yuji becomes the host.</p>
+                                 <button class="movie-list-item-button">Watch</button>
+                        </div>
+                       <!--mob pshyco-->
+                       <div class="movie-list-item">
+                        <img class="movie-list-item-image" src="image/mod.jpg" alt="Your Name">
+                        <span class="movie-list-item-title">Mob Pshyco</span>
+                        <p class="movie-list-item-desc">Shigeo Kageyama is an average middle school-aged boy, nicknamed Mob. Although he looks like an inconspicuous person, he is in fact a powerful esper with immense psychic power.</p>
+                             <button class="movie-list-item-button">Watch</button>
+                    </div>
+                        <!--Jujutsu Kaisen-->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-image" src="image/jujutsu_kaisen.jpg" alt="Your Name">
+                            <span class="movie-list-item-title">Jujutsu kaisen</span>
+                            <p class="movie-list-item-desc">The story follows high school student Yuji Itadori as he joins a secret organization of Jujutsu Sorcerers to eliminate a powerful Curse named Ryomen Sukuna, of whom Yuji becomes the host.</p>
+                                 <button class="movie-list-item-button">Watch</button>
+                        </div>
+                       <!--one peice-->
+                       <div class="movie-list-item">
+                        <img class="movie-list-item-image" src="image/feature_content.jpg" alt="Your Name">
+                        <span class="movie-list-item-title">One Piece</span>
+                        <p class="movie-list-item-desc">Luffy  sets off from his small village on a perilous journey to find the legendary fabled treasure, ONE PIECE, to become King of the Pirates!</p>
+                             <button class="movie-list-item-button">Watch</button>
+                    </div>
+                         <!--Gintama-->
+                         <div class="movie-list-item">
+                            <img class="movie-list-item-image" src="image/gintama.jpg" alt="Your Name">
+                            <span class="movie-list-item-title">Gintama</span>
+                            <p class="movie-list-item-desc">Gintoki is a freelancer who runs an odd-jobs business with his friends Shinpachi and Kagura.</p>
+                                 <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <!--demon slayer-->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-image" src="image/demon_slayer.jpg" alt="Your Name">
+                            <span class="movie-list-item-title">Demon Slayer</span>
+                            <p class="movie-list-item-desc"> It follows teenage Tanjiro Kamado, who strives to become a Demon Slayer after his family was slaughtered and his younger sister, Nezuko, is turned into a demon.</p>
+                                 <button class="movie-list-item-button">Watch</button>
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-chevron-right arrow"></i>
+                </div>
+            </div>
+        </div>    
+    </div>
+    <script src="app.js"></script>
+ </body>
+
+ </html>
