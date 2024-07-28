@@ -208,7 +208,7 @@ body {
     top: 23%;
     left: 40px;
    opacity: 0;
-   transition: all 1.5s ease-in;
+   transition: all 1s ease-in-out;
 }
 
 .movie-list-item-button {
@@ -280,5 +280,52 @@ body {
 @media only screen and (max-width: 940px) {
     .menu-container {
         display: none;
+    }
+}
+
+@media(max-width: 800px){
+    .featured-content{
+        height: 30vh;
+    }
+}
+
+@media(max-width: 600px){
+    .featured-content{
+        height: 40vh;
+        padding: 40px;
+    }
+    .featured-desc{
+        width: 370px;
+    }
+    .sidebar{
+        display: none;
+    }
+
+    .content-container{
+        margin: 0;
+    }
+    .logo-container{
+        margin-right: 20px;
+    }
+    .fa-sort-down{
+        display: none;
+    }
+    .featured-title{
+        width: 150px;
+    }
+}
+
+@media(max-width: 380px){
+    .featured-content{
+        height: 50vh;
+        padding: 20px;
+        margin-bottom: 10px;
+    }
+    .featured-desc{
+        width: 350px;
+    }
+    .featured-title{
+        width: 140px;
+        height: 80px;
     }
 }
